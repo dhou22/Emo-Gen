@@ -127,7 +127,7 @@ Both models enhance the emotional content of generated audio, but **Diffusion Mo
 
 ```bash
 # 1. Clone Repository
-https://github.com/your-username/emogen.git
+https://github.com/dhou22/Emo-Gen
 cd emogen
 
 # 2. Create Virtual Environment
