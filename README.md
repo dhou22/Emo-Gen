@@ -31,24 +31,24 @@ EmoGen offers a modular pipeline to preprocess, enhance, and analyze emotional s
 
 ---
 
-## 📁 Project Architecture
+## 🏗️ Project Architecture
 
 ```plaintext
-emo-gen/
-├── data/                        # Raw datasets
-│   ├── emoDB/
-│   └── ravDESS/
-├── processed/                  # Preprocessed outputs
-│   ├── emodb/
-│   ├── ravDESS/
+📁 emo-gen/
+├── 📁 data/                        # Raw datasets
+│   ├── 📁 emoDB/
+│   └── 📁 ravDESS/
+├── 📁 processed/                  # Preprocessed outputs
+│   ├── 📁 emodb/
+│   ├── 📁 ravDESS/
 │   └── *.csv                   # Metadata for samples
-├── models/                     # Saved SER and generation models
-├── experiments/                # Experimental logs and config
-├── src/                        # Source notebooks
-│   ├── preprocessing.ipynb     # STFT, Mel conversion, normalization
-│   ├── exploration.ipynb       # Visualizations, class distributions
-│   ├── modeling.ipynb          # SER, VAE & Diffusion model training
-│   └── roadmap.ipynb           # Development notes
+├── 📁 models/                     # Saved SER and generation models
+├── 📁 experiments/                # Experimental logs and config
+├── 📁 src/                        # Source notebooks
+│   ├── 📁 preprocessing.ipynb     # STFT, Mel conversion, normalization
+│   ├── 📁 exploration.ipynb       # Visualizations, class distributions
+│   ├── 📁 modeling.ipynb          # SER, VAE & Diffusion model training
+│   └── 📁 roadmap.ipynb           # Development notes
 ├── main.py                     # Optional pipeline launcher
 ├── *.jpg / *.png               # Mel spectrogram examples
 ├── *.pdf                       # Research references
