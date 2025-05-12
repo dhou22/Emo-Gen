@@ -5,7 +5,8 @@ Welcome to **EmoGen**, a comprehensive deep learning project for enhancing and s
 > **"A Generation of Enhanced Data by Variational Autoencoders and Diffusion Modeling"**
 > by Young-Jun Kim and Seok-Pil Lee, Electronics 2024 ([DOI:10.3390/electronics13071314](https://doi.org/10.3390/electronics13071314))
 
-![image](https://github.com/user-attachments/assets/fbe80a8a-9a4a-407b-9745-311c07736f09)
+![image](https://github.com/user-attachments/assets/0bd82a53-2f3b-43c8-8af3-17e966b672f1)
+
 
 ---
 
@@ -131,6 +132,8 @@ Our VAE implementation has several key architectural improvements:
 - **Spectral Loss Components**: Preserves both frequency and temporal characteristics
 - **Early Stopping & LR Scheduling**: Prevents overfitting and ensures stable convergence
 
+---
+
 ### 📊 Benchmarking Results
 
 | Metric | Value | Notes |
@@ -139,6 +142,11 @@ Our VAE implementation has several key architectural improvements:
 | KL Divergence | 0.0093 | Well-distributed latent space |
 | Emotional Clarity | 83.7% | When classified by pre-trained model |
 | Processing Time | 42s/epoch | On NVIDIA RTX 3080 GPU |
+
+![image](https://github.com/user-attachments/assets/e1d131f5-a5a4-4113-921e-372c75f80b02)
+
+![image](https://github.com/user-attachments/assets/a312c9e6-2797-4ebd-9094-b2207b653564)
+
 
 ---
 
