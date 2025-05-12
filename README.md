@@ -13,7 +13,7 @@ Welcome to **EmoGen**, a comprehensive deep learning project for enhancing and s
 
 EmoGen offers a modular pipeline to preprocess, enhance, and analyze emotional speech using cutting-edge generative techniques. The system processes emotional audio through carefully tuned mel-spectrogram conversions, trains both VAE and diffusion models for generation, and validates improvements using emotion recognition models.
 
-### 🧠 Key Features
+### 📋 Key Features
 
 ✅ **Advanced Audio Preprocessing**: High-resolution mel-spectrograms (128 bands) with psychoacoustically-tuned parameters
 
@@ -56,9 +56,9 @@ EmoGen offers a modular pipeline to preprocess, enhance, and analyze emotional s
 
 ---
 
-## 📊 Detailed Architecture
+## 🧩 Detailed Architecture
 
-### 🔍 Complete Pipeline Workflow
+### 🎯 Complete Pipeline Workflow
 
 Our implementation follows a four-stage pipeline:
 
@@ -67,7 +67,7 @@ Our implementation follows a four-stage pipeline:
 3. **Training Process**: Optimization with carefully tuned hyperparameters
 4. **Sampling & Evaluation**: Reverse diffusion process and quality assessment
 
-### 🎛️ Key Hyperparameters
+### 📐 Key Hyperparameters
 
 | Parameter | Value | Purpose |
 |-----------|-------|---------|
@@ -82,6 +82,8 @@ Our implementation follows a four-stage pipeline:
 
 ### 🧠 U-Net Diffusion Model
 
+![image](https://github.com/user-attachments/assets/24e54c5c-022b-4dff-916f-71ed9571e919)
+
 Our diffusion implementation uses a U-Net architecture specifically optimized for mel-spectrograms:
 
 - **Encoder**: Deep convolutional layers with time embeddings
@@ -95,11 +97,13 @@ This approach outperforms the VAE-only model for emotional clarity while maintai
 
 
 
-## 📊 Dataset Processing
+## 🧪 Dataset Processing
+
+![image](https://github.com/user-attachments/assets/5f421c2c-cccf-4792-a81f-7e39ae9b2f76)
 
 All audio is processed with scientific rigor using carefully selected parameters:
 
-### 🗂️ Standardization Process
+### 🛠️ Standardization Process
 
 - **Sampling Rate**: 22,050 Hz (resampled from original rates)
 - **Target Duration**: 4.0 seconds (center-cropped or zero-padded)
@@ -117,6 +121,8 @@ All audio is processed with scientific rigor using carefully selected parameters
 ---
 
 ## 🧠 VAE Implementation
+
+![image](https://github.com/user-attachments/assets/52ce1085-ea8e-4240-90bc-2cb4bd08f564)
 
 Our VAE implementation has several key architectural improvements:
 
